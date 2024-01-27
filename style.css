@@ -19,7 +19,7 @@ header.navbar-container {
   max-width: 1200px;
   padding-block: 1rem;
   margin-inline: auto;
- 
+  position: fixed;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -28,7 +28,8 @@ header.navbar-container {
 }
  
 header.navbar-container .logo img {
-  width: 150px;
+  width: 50px;
+  border-radius: 100px;
 }
  
 header.navbar-container .nav-list ul {
